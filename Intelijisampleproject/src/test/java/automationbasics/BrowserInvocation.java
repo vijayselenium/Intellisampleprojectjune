@@ -9,7 +9,7 @@ public class BrowserInvocation {
 
     public static void main(String[] args) {
         WebDriver driver = new EdgeDriver();
-        driver.get("https://login.salesforce.com/?locale=in");
+        driver.get("https://amc.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Famc.amazon.com%2F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_amcentral_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&mons_redirect=sign_in");
         driver.findElement(By.id("username")).sendKeys("LearnMore");
         driver.findElement(By.name("pw")).sendKeys("123");
         driver.findElement(By.id("Login")).click();
