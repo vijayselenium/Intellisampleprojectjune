@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_6_21_2023_7_30_AM_[Changes]" date="1687312829794" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_21_2023_7_30_AM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 6/21/2023 7:30 AM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Intelijisampleproject/target/test-classes/automationbasics/BrowserInvocation.class" />
+    <option name="AFTER_PATH" value="Intelijisampleproject/target/test-classes/automationbasics/BrowserInvocation.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_21_2023_7_30_AM_[Changes]/BrowserInvocation.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Intelijisampleproject/target/test-classes/javabasics/CalculatorExample.class" />
+    <option name="AFTER_PATH" value="Intelijisampleproject/target/test-classes/javabasics/CalculatorExample.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_21_2023_7_30_AM_[Changes]/CalculatorExample.class" />
+  </binary>
+</changelist>

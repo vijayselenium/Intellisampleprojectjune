@@ -1,0 +1,114 @@
+Index: Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package automationbasics;\r\n\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\nimport org.openqa.selenium.edge.EdgeDriver;\r\n\r\npublic class BrowserInvocation {\r\n\r\n    public static void main(String[] args) {\r\n        WebDriver driver = new EdgeDriver();\r\n        driver.get(\"https://amc.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Famc.amazon.com%2F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_amcentral_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&mons_redirect=sign_in\");\r\n        driver.findElement(By.id(\"username\")).sendKeys(\"LearnMore\");\r\n        driver.findElement(By.name(\"pw\")).sendKeys(\"123\");\r\n        driver.findElement(By.id(\"Login\")).click();\r\n        String actualResult = driver.findElement(By.id(\"error\")).getText();\r\n        String ExpectedResult = \"Please check your username and password. If you still can't log in, contact your Salesforce administrator\";\r\n        if(actualResult.equals(ExpectedResult)){\r\n\r\n            System.out.println(\"equal\");\r\n        }\r\n        else{\r\n\r\n            System.out.println(\"not equal\");\r\n        }\r\n\r\n\r\n\r\n\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java b/Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java
+--- a/Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java	(revision 53c88e58c147e68f34f14b64d5ac44b89e5b2574)
++++ b/Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java	(date 1687311835168)
+@@ -2,14 +2,14 @@
+ 
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.WebDriver;
+-import org.openqa.selenium.chrome.ChromeDriver;
+ import org.openqa.selenium.edge.EdgeDriver;
+ 
+ public class BrowserInvocation {
+ 
+     public static void main(String[] args) {
++
+         WebDriver driver = new EdgeDriver();
+-        driver.get("https://amc.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Famc.amazon.com%2F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_amcentral_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&mons_redirect=sign_in");
++        driver.get("https://login.salesforce.com/");
+         driver.findElement(By.id("username")).sendKeys("LearnMore");
+         driver.findElement(By.name("pw")).sendKeys("123");
+         driver.findElement(By.id("Login")).click();
+Index: Intelijisampleproject/src/test/java/javabasics/ArrayExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package javabasics;\r\n\r\npublic class ArrayExample {\r\n\r\n    public static void main(String[] args) {\r\n\r\n\r\n        int[] a = {45, 23, 89, 90};    // 0,1,2,3 // length - 4\r\n\r\n        for(int j = 0; j < a.length; j++) {\r\n\r\n            // 0<4\r\n            // 1<4\r\n            // 4<4 = fails\r\n            System.out.println(a[j]);\r\n\r\n        }\r\n\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Intelijisampleproject/src/test/java/javabasics/ArrayExample.java b/Intelijisampleproject/src/test/java/javabasics/ArrayExample.java
+--- a/Intelijisampleproject/src/test/java/javabasics/ArrayExample.java	(revision 53c88e58c147e68f34f14b64d5ac44b89e5b2574)
++++ b/Intelijisampleproject/src/test/java/javabasics/ArrayExample.java	(date 1686758662564)
+@@ -7,7 +7,7 @@
+ 
+         int[] a = {45, 23, 89, 90};    // 0,1,2,3 // length - 4
+ 
+-        for(int j = 0; j < a.length; j++) {
++        for(int j = 0;j<a.length;j++) {
+ 
+             // 0<4
+             // 1<4
+Index: Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package javabasics;\r\n\r\npublic class CalculatorExample {\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java b/Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java
+--- a/Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java	(revision 53c88e58c147e68f34f14b64d5ac44b89e5b2574)
++++ b/Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java	(date 1687312264902)
+@@ -2,6 +2,57 @@
+ 
+ public class CalculatorExample {
+ 
++    public static void main(String[] args) {
++
++        // input
++
++        double inputOne =  56.78;
++        double inputTwo = 90 ;
++
++        String operator = "-";
++        //operation + - * / --> input provide by the user
++
++        double output = 0;
++
++        if(operator.equals("+")){
++
++            output = inputOne + inputTwo ;
++
++        }
++        else if (operator.equals("-")) {
++
++            if(inputOne > inputTwo){
++
++                output = inputOne - inputTwo ;
++
++            }
++            else{
++                output = inputTwo - inputOne ;
++            }
++
++        }
++
++        else if (operator.equals("/")){
++
++            if(inputOne != 0 && inputTwo !=0){
++
++                output = inputOne/inputTwo;
++            }
++            else{
++                System.out.println("Divison cann't be perform");
++            }
++
++        }
++
++        else{
++
++            System.out.println("enter valid operator");
++        }
++
++        System.out.println(output);
++
++    }
++
+ 
+ 
+ }

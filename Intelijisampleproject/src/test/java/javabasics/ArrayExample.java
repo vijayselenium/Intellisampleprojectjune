@@ -7,7 +7,7 @@ public class ArrayExample {
 
         int[] a = {45, 23, 89, 90};    // 0,1,2,3 // length - 4
 
-        for(int j = 0; j < a.length; j++) {
+        for(int j = 0;j<a.length;j++) {
 
             // 0<4
             // 1<4
