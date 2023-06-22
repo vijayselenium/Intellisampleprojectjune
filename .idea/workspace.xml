@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7521faaa-c58e-4ed2-b962-f47843e97878" name="Changes" comment="java examples added">
-      <change beforePath="$PROJECT_DIR$/Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Intelijisampleproject/src/test/java/automationbasics/BrowserInvocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intelijisampleproject/src/test/java/javabasics/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Intelijisampleproject/src/test/java/javabasics/ArrayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Intelijisampleproject/src/test/java/javabasics/CalculatorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intelijisampleproject/target/test-classes/automationbasics/BrowserInvocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Intelijisampleproject/target/test-classes/automationbasics/BrowserInvocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intelijisampleproject/target/test-classes/javabasics/CalculatorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/Intelijisampleproject/target/test-classes/javabasics/CalculatorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
